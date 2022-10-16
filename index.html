@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Rivalry</title>
+    </header>
+    <body>
+        <div class="game-container"></div>
+
+        <script>
+            window.games = []
+        </script>
+
+        <script src="./index.js"></script>
+
+        <script>
+            const gc = document.querySelector(".game-container");
+
+            gc.innerHTML = ""
+            gc.appendChild(window.games['Rivalry']())
+        </script>
+    </body>
+</html>
