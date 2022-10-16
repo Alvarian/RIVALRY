@@ -1,5 +1,6 @@
-# Instructions
-Ipsum
+# Overview
+
+Non-canvas game. Functionalities are influenced by DOM and conditionals.
 
 :octocat:
 
